@@ -62,14 +62,3 @@ SELECT COUNT(City) FROM SalesPeople WHERE City='Newyork';
 SELECT COUNT(City) FROM SalesPeople WHERE CITY='LONDON' AND 'PARIS';
 
 SELECT Odate,Snum,COUNT(*) FROM Orders GROUP BY Odate,Snum;
-
-
-
-
-
-
-
-
-
-
-
